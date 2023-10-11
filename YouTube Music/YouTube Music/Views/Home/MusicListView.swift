@@ -36,6 +36,8 @@ struct MusicListView: View {
             // 1. SwiftUI로 만들수있는가?
             // 2. Tabview로 구현하는 것이 아닌가?
             
+            // FIXME: 우선, SwiftUI Snap Carousel 이라고 검색해보면 좋음
+            
             TabView {
                 ForEach(0..<5, id: \.self) {_ in
                     LazyVGrid(columns: columns, spacing: 0) {

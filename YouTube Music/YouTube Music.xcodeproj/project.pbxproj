@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70B9E52D2AD6CB3C00813DF7 /* TestCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B9E52C2AD6CB3C00813DF7 /* TestCarouselView.swift */; };
 		A00CC1412AD47BD900535FB6 /* StickyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00CC1402AD47BD900535FB6 /* StickyHeaderView.swift */; };
 		A00CC1432AD47CBC00535FB6 /* MusicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00CC1422AD47CBC00535FB6 /* MusicListView.swift */; };
 		A00CC1452AD47CD900535FB6 /* MusicListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00CC1442AD47CD900535FB6 /* MusicListDetailView.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70B9E52C2AD6CB3C00813DF7 /* TestCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCarouselView.swift; sourceTree = "<group>"; };
 		A00CC1402AD47BD900535FB6 /* StickyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderView.swift; sourceTree = "<group>"; };
 		A00CC1422AD47CBC00535FB6 /* MusicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListView.swift; sourceTree = "<group>"; };
 		A00CC1442AD47CD900535FB6 /* MusicListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListDetailView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				A00CC14A2AD4898000535FB6 /* MusicCardView.swift */,
 				A00CC1422AD47CBC00535FB6 /* MusicListView.swift */,
 				A024095A2AD2C66600809341 /* Components */,
+				70B9E52C2AD6CB3C00813DF7 /* TestCarouselView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				A024095D2AD2CF0C00809341 /* MoodButtonView.swift in Sources */,
 				A00CC1512AD52C0700535FB6 /* HomeHeaderView.swift in Sources */,
 				A02409472AD298D100809341 /* ContentView.swift in Sources */,
+				70B9E52D2AD6CB3C00813DF7 /* TestCarouselView.swift in Sources */,
 				A00CC14D2AD5182700535FB6 /* MusicModel.swift in Sources */,
 				A02409452AD298D100809341 /* YouTube_MusicApp.swift in Sources */,
 				A00CC14B2AD4898000535FB6 /* MusicCardView.swift in Sources */,
