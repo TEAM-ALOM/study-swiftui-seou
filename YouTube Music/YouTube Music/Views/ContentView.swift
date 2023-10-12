@@ -23,7 +23,7 @@ struct ContentView: View {
                     .tag("home")
                 
                 
-                Text("샘플")
+                Text("sample")
                     .tabItem {
                         Label("샘플", systemImage: "play.fill")
                     }
