@@ -29,12 +29,12 @@ struct ContentView: View {
                     }
                     .tag("sample")
                 
-//                Text("둘러보기")
-//                    .tabItem {
-//                        Label("둘러보기", systemImage: "safari")
-//                    }
-//                    .tag("looking")
-//                
+                Text("둘러보기")
+                    .tabItem {
+                        Label("둘러보기", systemImage: "safari")
+                    }
+                    .tag("looking")
+                
                 Text("보관함")
                     .tabItem {
                         Label("보관함", systemImage: "music.note.house.fill")
