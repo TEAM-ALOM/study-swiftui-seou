@@ -14,21 +14,19 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        
         ZStack {
-            
             ScrollView {
-                
-                // MARK: - HEADER
-                // header 디테일 수정
-                HomeHeaderView()
+                ZStack {
+                    // MARK: - HEADER
+                    // header 디테일 수정
+                    HomeHeaderView()
+                }
                 
                 // MARK: - STICKY HEADER & FOOTER
                 //sticky header top 부분 해결하기!
                 LazyVStack(pinnedViews: [.sectionHeaders, .sectionFooters]) {
                     Section(
-                        header: StickyHeaderView(),
-                        footer: StickyFooterView()
+                        header: StickyHeaderView()
                     ){
                         // MARK: - MAIN
                         VStack {
@@ -56,7 +54,15 @@ struct HomeView: View {
                     } //: SECTION
                 } //: LazyVSTACK
             } //: SCROLL
-        } //: ZSTACK
+            .clipped()
+
+            
+            VStack {
+                Spacer()
+                
+                StickyFooterView()
+            }
+        }
     }
 }
 
